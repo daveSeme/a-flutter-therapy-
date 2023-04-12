@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:thearapy_app/constants/Constants.dart';
+import 'package:thearapy_app/constants/constants.dart';
 import 'package:thearapy_app/models/user.dart';
 import 'package:thearapy_app/pages/sign_up.dart';
 import 'package:thearapy_app/utils/PageTransistor.dart';

@@ -193,7 +193,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                   .child(booking.therapist.id)
                                   .child(booking.session.id)
                                   .update(status);
-                              ToastDialogue().showToast("Sucess", 0);
+                              ToastDialogue().showToast("Success", 0);
                             }
                           },
                         ),

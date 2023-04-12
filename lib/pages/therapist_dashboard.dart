@@ -6,7 +6,7 @@ import 'package:thearapy_app/widgets/profile.dart';
 import 'package:thearapy_app/widgets/reviews.dart';
 import 'package:thearapy_app/widgets/sessions.dart';
 import '../widgets/home.dart';
-import '../widgets/therapistDrawer.dart';
+import '../widgets/therapist_drawer.dart';
 
 class TherapistDashboard extends StatefulWidget {
   const TherapistDashboard({Key? key}) : super(key: key);

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:developer';
 import 'dart:io';
 
@@ -202,7 +204,6 @@ class _ProfileState extends State<Profile> {
   }
 
   Future<void> requestPermission(Permission permission) async {
-    final status = await permission.request();
   }
 
   void locatePosition() async {

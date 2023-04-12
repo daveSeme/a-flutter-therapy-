@@ -13,6 +13,7 @@ class Therapist {
   final String rating;
   final String image;
   final String physical_address;
+  
   Therapist({
     required this.id,
     required this.firstName,

@@ -1,4 +1,3 @@
-import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_database/ui/firebase_animated_list.dart';
 import 'package:flutter/material.dart';
 import 'package:thearapy_app/constants/colors.dart';
@@ -6,8 +5,6 @@ import 'package:thearapy_app/controllers/account_controller.dart';
 import 'package:thearapy_app/controllers/firebase_controllers.dart';
 import 'package:thearapy_app/models/address.dart';
 import 'package:thearapy_app/models/booking.dart';
-import 'package:thearapy_app/models/session.dart';
-import 'package:thearapy_app/models/therapist.dart';
 import 'package:thearapy_app/pages/review_session.dart';
 import 'package:thearapy_app/utilities/toastDialog.dart';
 import 'package:thearapy_app/utils/Helper.dart';

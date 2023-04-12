@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223994492892",
+    "firebase_url": "https://therapy-app-5cc3a-default-rtdb.firebaseio.com",
+    "project_id": "therapy-app-5cc3a",
+    "storage_bucket": "therapy-app-5cc3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223994492892:android:14f23a5574d9f565ab4119",
+        "android_client_info": {
+          "package_name": "com.example.jabaz2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223994492892-0po9cequk3g85v79tghm5okhsv6vhmd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz2WT3R5JxVv6U2ZYkgBytm9AIQbgGDZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223994492892-0po9cequk3g85v79tghm5okhsv6vhmd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

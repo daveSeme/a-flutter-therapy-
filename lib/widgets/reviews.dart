@@ -1,13 +1,13 @@
+// ignore_for_file avoid_print
+
+// ignore_for_file: avoid_print
+
 import 'package:firebase_database/ui/firebase_animated_list.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:thearapy_app/models/review.dart';
 import 'package:thearapy_app/models/therapist.dart';
 import 'package:thearapy_app/models/user.dart';
-
-import '../constants/colors.dart';
 import '../controllers/account_controller.dart';
 import '../controllers/firebase_controllers.dart';
 
@@ -170,7 +170,7 @@ class _ReviewsState extends State<Reviews> {
                         ),
                         Text(
                           DateTime.fromMillisecondsSinceEpoch(int.parse(review.id)).toLocal().toString(),
-                          style: TextStyle(color: Colors.blue),
+                          style: const TextStyle(color: Colors.blue),
                         ),
                       ],
                     ),

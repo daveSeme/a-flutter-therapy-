@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
 import 'package:thearapy_app/constants/colors.dart';
 import 'package:thearapy_app/utils/Helper.dart';
 
 class HelpPage extends StatefulWidget {
+  const HelpPage({Key? key}) : super(key: key);
+
   @override
   State<HelpPage> createState() => _HelpPageState();
 }
@@ -35,7 +36,8 @@ class _HelpPageState extends State<HelpPage> {
             ),
           ),
           ListTile(
-            leading: const Icon(Icons.whatsapp),
+            leading: const Icon(Icons.call,
+            color: Colors.green,),
             title: const Text("Whatsapp US"),
             subtitle: const Text("0714599046"),
             trailing: IconButton(

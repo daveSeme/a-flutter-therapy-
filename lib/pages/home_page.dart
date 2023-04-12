@@ -6,11 +6,8 @@ import 'package:thearapy_app/controllers/account_controller.dart';
 import 'package:thearapy_app/controllers/firebase_controllers.dart';
 import 'package:thearapy_app/models/therapist.dart';
 import 'package:thearapy_app/models/user.dart';
-import 'package:thearapy_app/pages/category_list.dart';
 import 'package:thearapy_app/pages/specialist_list.dart';
 import 'package:thearapy_app/pages/transactions_history.dart';
-
-import '../widgets/mainDrawer.dart';
 import 'doctor_details_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -47,7 +44,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: primaryColor,
-      drawer: MainDrawer(context),
+      drawer: const Drawer(),
       appBar: AppBar(
         elevation: 0.0,
         backgroundColor: primaryColor,

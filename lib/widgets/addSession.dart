@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:select_form_field/select_form_field.dart';
 import 'package:thearapy_app/constants/colors.dart';
 import 'package:thearapy_app/controllers/firebase_controllers.dart';
-import 'package:thearapy_app/controllers/sessionsController.dart';
+import 'package:thearapy_app/controllers/sessions_controller.dart';
 import 'package:thearapy_app/data/days.dart';
 import 'package:thearapy_app/data/time.dart';
 import 'package:thearapy_app/models/session.dart';
